@@ -1,0 +1,8 @@
+@font-face {font-family: "Bringin";
+    src: url("../fonts/Bringins/Bringin/Bringin.eot"); /* IE9*/
+    src: url("../fonts/Bringins/Bringin/Bringin.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Bringins/Bringin/Bringin.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/Bringins/Bringin/Bringin.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/Bringins/Bringin/Bringin.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/Bringins/Bringin/Bringin.svg#Bringin") format("svg"); /* iOS 4.1- */
+  }

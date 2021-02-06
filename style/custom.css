@@ -1,0 +1,108 @@
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.clearfix {
+    clear: both;
+}
+.logo a {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    font-family: "Bringin";
+}
+.moun {
+    color: #36aeea;
+}
+.tains {
+    color: #95a5ad;
+}
+header {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .3);
+    z-index: 1;
+    width: 100%;
+}
+.nav-header li {
+    float: left;
+    text-indent: 30px;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #9daeb6;
+}
+.nav-header li a {
+    text-decoration: none;
+    color: #95a5ad; 
+}
+.nav-header li a:hover {
+    border-bottom: 2px #36aeea solid;
+}
+.header-button {
+    float: right;
+    padding: 15px 40px 15px 40px;
+    margin-top: 20px;
+    border: 3px #36aeea solid;
+    color: #36aeea;
+    background-color: transparent;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.header-button:hover {
+    color: #fff;
+    background-color: #36aeea;
+}
+.sec1 {
+    background-image: url(/img/background/mountings.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.spanb {
+    display: block;
+    font-family: "Bringin";
+    font-weight: bold;
+    color: #56c7ff;
+}
+.sec1-block {
+    overflow: hidden;
+    border: 3px solid #fff;
+}
+.text-sec1 {
+    float: left;
+    width: 50%;
+}
+.span-travel {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.sec1-button {
+    float: left;
+    padding: 25px 75px 25px 75px;
+    background-color: #36aeea;
+    border: 0px solid;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.text-sec1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.man {
+    width: 50%;
+    float: right;
+}
