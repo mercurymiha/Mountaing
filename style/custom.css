@@ -27,7 +27,8 @@
 header {
     overflow: hidden;
     background-color: rgba(255, 255, 255, .3);
-    z-index: 1;
+    position: fixed;
+    z-index: 500;
     width: 100%;
 }
 .nav-header li {
@@ -38,10 +39,12 @@ header {
     font-weight: bold;
     font-size: 12px;
     color: #9daeb6;
+    text-transform: uppercase;
 }
 .nav-header li a {
     text-decoration: none;
     color: #95a5ad; 
+    padding-bottom: 10px;
 }
 .nav-header li a:hover {
     border-bottom: 2px #36aeea solid;
@@ -57,6 +60,7 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 12px;
+    text-transform: uppercase;
 }
 .header-button:hover {
     color: #fff;
@@ -67,42 +71,65 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
+    width: 100%;
 }
 .spanb {
     display: block;
     font-family: "Bringin";
-    font-weight: bold;
     color: #56c7ff;
+    font-size: 60px;
 }
 .sec1-block {
     overflow: hidden;
     border: 3px solid #fff;
+    width: 100%;
+    margin-top: 220px;
+    margin-bottom: 150px;
 }
 .text-sec1 {
     float: left;
-    width: 50%;
+    width:calc(50% - 40px); 
+    margin-left: 40px;
+}
+.text-sec1 h1 {
+    margin-top: 40px;
+    line-height: 22px;
 }
 .span-travel {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #fff;
+    font-size: 52px;
 }
 .sec1-button {
     float: left;
     padding: 25px 75px 25px 75px;
     background-color: #36aeea;
-    border: 0px solid;
+    border: 3px solid transparent;
     border-radius: 5px;
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 14px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.sec1-button:hover {
+    background-color: transparent;
+    border: 3px #36aeea solid;
+    color: #36aeea;
 }
 .text-sec1 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    margin-top: 27px;
+    line-height: 27px;
+    color: #c1cbd2;
 }
 .man {
-    width: 50%;
-    float: right;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 500px;
 }
