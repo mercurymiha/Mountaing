@@ -6,3 +6,11 @@
     url("../fonts/Bringins/Bringin/Bringin.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
     url("../fonts/Bringins/Bringin/Bringin.svg#Bringin") format("svg"); /* iOS 4.1- */
   }
+  @font-face {font-family: "Times New Roman"; 
+    src: url("../fonts/TimesNewRoman/TimesNewRoman.eot"); 
+    src: url("../fonts/TimesNewRoman/TimesNewRoman.eot?#iefix") format("embedded-opentype"),
+     url("../fonts/TimesNewRoman/TimesNewRoman.woff2") format("woff2"),
+      url("../fonts/TimesNewRoman/TimesNewRoman.woff") format("woff"),
+       url("../fonts/TimesNewRoman/TimesNewRoman.ttf") format("truetype"),
+        url("../fonts/TimesNewRoman/TimesNewRoman.svg#Times New Roman") format("svg"); 
+  } 

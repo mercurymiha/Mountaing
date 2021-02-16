@@ -17,6 +17,9 @@
 
     <link rel="stylesheet" href="./style/reset.css">
 
+    <link rel="stylesheet" href="./style/owl.carousel.min.css">
+<link rel="stylesheet" href="./style/owl.theme.default.min.css">
+
     <link rel="stylesheet" href="./style/custom.css">
     
     <link rel="stylesheet" href="./style/fonts.css">
@@ -104,6 +107,9 @@
                         <div class="Journal-text Journal-text_height">
                             <p>You know how to make best coffee in the <span>universe? Or, maybe you’re very good in</span> <span>designing gloves? Tell everyone about</span> your experience and skills.</p>
                         </div>
+                        <div class="number-journal">
+                            <h5>01</h5>
+                        </div>
                     </div>
                     <div class="our-journal_item journal_item_bg journal_item--bg2">
                         <img src="./img/icon-img/blob.png" alt="">
@@ -117,6 +123,9 @@
                         </div>
                         <div class="Journal-text Journal-text_height">
                             <p>The way to a successful brand is hard, <span>but always very interesting. Share the full</span> <span>story of your project – from the very first</span> day until now.</p>
+                        </div>
+                        <div class="number-journal">
+                            <h5>02</h5>
                         </div>
                     </div>
                     <div class="our-journal_item journal_item_bg journal_item--bg3">
@@ -132,10 +141,107 @@
                         <div class="Journal-text Journal-text_height2">
                             <p>What do you do better than your <span>competitors? What are you proud of?</span> <span>What details and advantages of your</span> product you want people to know about?</p>
                         </div>
+                        <div class="number-journal">
+                            <h5>03</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="workh2">
+                    <h2>HOW WE WORK</h2>
+                </div>
+                <div class="we-work_list">
+                   <div class="work-div work-re2">
+                       <div class="boll">1</div>
+                   </div>
+                   <div class="work-div work-re work-re2">
+                    <div class="boll">2</div>
+                </div>
+                <div class="work-div work-re work-re2">
+                    <div class="boll">3</div>
+                </div>
+                <div class="work-div work-re work-re2">
+                    <div class="boll">4</div>
+                </div>
+                <div class="work-div">
+                    <img src="./img/icon-img/workicon1.png" alt="">
+                </div>
+                <div class="work-div">
+                    <img src="./img/icon-img/workicon2.png" alt="">
+                </div>
+                <div class="work-div">
+                    <img src="./img/icon-img/workicon3.png" alt="">
+                </div>
+                <div class="work-div">
+                    <img src="./img/icon-img/workicon4.png" alt="">
+                </div>
+                <div class="work-div_text">
+                    <h3>Lorem ipsum dolor sit </h3>
+                    <p>amet, consectetur adipisicing <span>elit, sed do eiusmod tempor</span>incididunt</p>
+                </div>
+                <div class="work-div_text">
+                    <h3>Lorem ipsum dolor sit </h3>
+                    <p>amet, consectetur adipisicing <span>elit, sed do eiusmod tempor</span>incididunt</p>
+                </div>
+                <div class="work-div_text">
+                    <h3>Lorem ipsum dolor sit </h3>
+                    <p>amet, consectetur adipisicing <span>elit, sed do eiusmod tempor</span>incididunt</p>
+                </div>
+                <div class="work-div_text">
+                    <h3>Lorem ipsum dolor sit </h3>
+                    <p>amet, consectetur adipisicing <span>elit, sed do eiusmod tempor</span>incididunt</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="travel-us">
+                <div class="container">
+                    <div class="travel-h2"><h2>Travel with us</h2></div>
+                    <div class="owl-carousel owl-carousel_backG">
+                        <div class="travel_owl">
+                            <img src="./img/icon-img/Layer1owl.png" alt="">
+                        </div>
+                        <div class="travel_owl">
+                            <img src="./img/icon-img/Layer2owl.png" alt="">
+                        </div>
+                        <div class="travel_owl">
+                            <img src="./img/icon-img/Layer3owl.png" alt="">
+                        </div>
+                        <div class="travel_owl">
+                            <img src="./img/icon-img/Layer4owl.png" alt="">
+                        </div>
+                        <div class="travel_owl">
+                            <img src="./img/icon-img/Layer5owl.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+  $(".owl-carousel").owlCarousel( {
+      loop:true,
+    margin:35,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+  });
+});
+</script>
 </body>
 </html>

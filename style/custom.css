@@ -67,7 +67,7 @@ header {
     background-color: #36aeea;
 }
 .sec1 {
-    background-image: url(/img/background/mountings.PNG);
+    background-image: url(../img/background/mountings.PNG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,7 +99,7 @@ header {
 }
 .man-img {
     position: absolute;
-    background-image: url(/img/background/man.png);
+    background-image: url(../img/background/man.png);
     width: 100%;
     padding-top: 100%;
     background-repeat: no-repeat;
@@ -141,7 +141,7 @@ header {
     color: #c1cbd2;
 }
 .sec2 {
-    background-image: url(/img/background/backgroundAbout.png);
+    background-image: url(../img/background/backgroundAbout.png);
     overflow: hidden;
 }
 .about {
@@ -212,19 +212,20 @@ header {
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: wrap;
+    margin-bottom: 85px;
 }
 .our-journal_item {
     flex-basis: 33.3%;
     min-height: 380px;
 }
 .journal_item--bg1 {
-    background: url(/img/background/Layer1.png);
+    background: url(../img/background/Layer1.png);
 }
 .journal_item--bg2 {
-    background: url(/img/background/Layer2.png);
+    background: url(../img/background/Layer2.png);
 }
 .journal_item--bg3 {
-    background: url(/img/background/Layer3.png);
+    background: url(../img/background/Layer3.png);
 }
 .journal_item_bg {
     background-repeat: no-repeat;
@@ -322,4 +323,106 @@ header {
     text-align: center;
     margin-top: 45px;
     margin-bottom: 55px;
+}
+.number-journal {
+    font-family: "Times New Roman";
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+}
+.workh2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.we-work_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.boll {
+    margin-top: 75px;
+    display: flex;
+    border: 3px solid #36aeea;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 16px;
+    color: #3bb0eb;
+}
+.work-div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.work-re {
+    position: relative;
+}
+.work-re:before {
+    content: " ";
+    background-image: url(../img/icon-img/Shape.png);
+    background-repeat: repeat-x;
+    width: 84%;
+    position: absolute;
+    padding-bottom: 1%;
+    bottom: 20px;
+    right: 170px;
+}
+.work-re2 {
+    position: relative;
+}
+.work-re2:after {
+    content: " ";
+    position: absolute;
+    background-image: url(../img/icon-img/Shape2.png);
+    background-repeat: repeat-y;
+    width: 1%;
+    padding-bottom: 20%;
+    bottom: -58px;
+}
+.work-div img {
+    margin-top: 58px;
+    margin-bottom: 29px;
+}
+.work-div_text {
+    width: 25%;
+    text-align: center;
+}
+.work-div_text h3 {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 18px;
+    color: #2c2e37;
+    line-height: 25px;
+}
+.work-div_text p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    color: #949494;
+    line-height: 23px;
+}
+.work-div_text p span {
+    display: block;
+}
+.travel-h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.owl-carousel_backG {
+    padding-bottom: 475px;
+}
+.travel-us {
+    background-image: url(../img/background/Travelbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
