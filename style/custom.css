@@ -330,6 +330,7 @@ header {
     text-align: center;
     margin-top: 40px;
 }
+
 .workh2 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -425,4 +426,186 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.gallery-h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 75px;
+}
+.grid-gallery_block {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1.5fr 2fr;
+    grid-template-rows: 280px 60px 280px;
+    margin-bottom: 80px;
+}
+.grid-gallery_block > div:nth-child(1) {
+    grid-row: 1 / 3;
+    background-image: url(../img/background/gallery1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-gallery_block > div:nth-child(2) {
+    grid-row: 1 / 2;
+    background-image: url(../img/background/gallery2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-gallery_block > div:nth-child(3) {
+    grid-row: 1 / 3;
+    background-image: url(../img/background/gallery3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-gallery_block > div:nth-child(4) {
+    grid-row: 3 / 4;
+    background-image: url(../img/background/gallery4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-gallery_block > div:nth-child(5) {
+    grid-row: 2 / 4;
+    background-image: url(../img/background/gallery5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-gallery_block > div:nth-child(6) {
+    grid-row: 3 / 4;
+    background-image: url(../img/background/gallery6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.firma {
+    background: #f8f9fa;
+}
+.ourClientssay_h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 110px;
+    margin-bottom: 115px;
+}
+.clients-owl p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #c0c0c0;
+    line-height: 30px;
+}
+.clients-owl img {
+    max-width: 65px;
+}
+.ourClientssay_bg {
+    background: url(../img/background/contacts2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contacts_bg {
+    width: 50%;
+    margin: 0 auto;
+    background: url(../img/background/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 140px;
+    border-radius: 15px;
+}
+.contacts_bg h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #36aeea;
+    padding-top: 42px;
+    margin-bottom: 16px;
+}
+.contacts_bg p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #383e4a;
+    margin-bottom: 40px;
+}
+.form_contacts {
+   display: grid;
+   width: 80%;
+   margin: 0 auto;
+   grid-gap: 2vh;
+}
+.form_contacts button {
+    background-color: #36aeea;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.form_contacts > input {
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+.form_contacts > input:focus {
+    outline: none;
+}
+.form_contacts > button {
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+}
+.footer-nav {
+    margin-top: 175px;
+    padding-bottom: 50px;
+    margin-top: 150px;
+}
+.pfooter {
+    float: left;
+    color: #78a8b8;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.pfooter2 {
+    font-family: 'Roboto';
+    font-weight: 900;
+    float: right;
+    font-size: 27px;
+    color: #7cc0d4;
+}
+@media (max-width: 998px) {
+    .our-journal_item {
+        flex-basis: 50%;
+    }
+    .journal_item--bg2 {
+        order: 4;
+    }
+    .journal_item--content2 {
+        order: 3;
+    }
+    .journal_item--bg3 {
+        order: 5;
+    }
+    .journal_item--content3 {
+        order: 6;
+    }
+}
+
+@media (max-width: 768px) {
+    .our-journal_wrapper span {
+        display: inline;
+    }
+    .work-div {
+        flex-basis: 50%;
+    }
+    .work-div_text {
+        display: flex;
+        flex-basis: 100%;
+    }
 }

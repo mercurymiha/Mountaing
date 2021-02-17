@@ -102,7 +102,7 @@
                             <h4>LOVE</h4>
                         </div>
                         <div class="content-journal">
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing <span>elit, sed do</span></h3>
+                            <h3><span> Lorem ipsum dolor sit amet,</span>consectetur adipisicing <span>elit, sed do</span></h3>
                         </div>
                         <div class="Journal-text Journal-text_height">
                             <p>You know how to make best coffee in the <span>universe? Or, maybe you’re very good in</span> <span>designing gloves? Tell everyone about</span> your experience and skills.</p>
@@ -200,7 +200,7 @@
             <div class="travel-us">
                 <div class="container">
                     <div class="travel-h2"><h2>Travel with us</h2></div>
-                    <div class="owl-carousel owl-carousel_backG">
+                    <div class="owl-carousel owl-carousel_backG slide-one">
                         <div class="travel_owl">
                             <img src="./img/icon-img/Layer1owl.png" alt="">
                         </div>
@@ -220,12 +220,94 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="container">
+                <div class="gallery-h2">
+                    <h2>GALLERY</h2>
+                </div>
+                <div class="grid-gallery_block">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="firma">
+                <div class="container">
+                    <div class="owl-carousel slide-two">
+                        <div class="firma_img">
+                            <img src="./img/background/firma1.png" alt="">
+                        </div>
+                        <div class="firma_img">
+                            <img src="./img/background/firma2.png" alt="">
+                        </div>
+                        <div class="firma_img">
+                            <img src="./img/background/firma3.png" alt="">
+                        </div>
+                        <div class="firma_img">4</div>
+                        <div class="firma_img">5</div>
+                        <div class="firma_img">6</div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+        <footer>
+            <div class="ourClientssay_bg">
+                <div class="container">
+                    <div class="ourClientssay_h2">
+                        <h2>our Clients say</h2>
+                    </div>
+                    <div class="owl-carousel slide-three">
+                        <div class="clients-owl">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad minim veniam,
+                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                  Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                            </p>
+                            <img src="./img/icon-img/cllientman.png" alt="">
+                        </div>
+                        <div class="clients-owl">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                 Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                           </p>
+                           <img src="./img/icon-img/cllientman1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="contacts_bg">
+                       <h2>CONTACTS</h2>
+                       <p>Sign up for our newsletter to receive updates</p>
+                       <form>
+                           <div class="form_contacts">
+                            <input type="text" placeholder="Name">
+                            <input type="tel" placeholder="Phone">
+                            <input type="email" placeholder="E-mail">
+                            <button type="submit">SEND</button>
+                           </div>
+                       </form>
+                    </div>
+                    <div class="footer-nav">
+                        <p class="pfooter">All rights reserved 2015</p>
+                        <p class="pfooter2">1 234 243 123</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
 <script src="./js/jquery.min.js"></script>
 <script src="./js/owl.carousel.min.js"></script>
 <script>
     $(document).ready(function(){
-  $(".owl-carousel").owlCarousel( {
+  $(".slide-one").owlCarousel( {
       loop:true,
     margin:35,
     nav:true,
@@ -238,6 +320,38 @@
         },
         1000:{
             items:5
+        }
+    }
+  });
+  $(".slide-two").owlCarousel( {
+      loop:true,
+    margin:35,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:6
+        }
+    }
+  });
+  $(".slide-three").owlCarousel( {
+      loop:true,
+    margin:35,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
         }
     }
   });
